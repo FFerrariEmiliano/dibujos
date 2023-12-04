@@ -1,0 +1,25 @@
+body{
+    background-color: #ccc;
+}
+
+#screen{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: fit-content;
+    align-items: center;
+    background-color: #fff;
+}
+
+#editor{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #002;
+    padding: 10px 0;
+}
+
+canvas{
+    cursor: crosshair;
+    border: 1px solid #000;
+}
